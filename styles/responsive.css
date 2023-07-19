@@ -33,6 +33,14 @@ nav{
      .content-container{
          text-align: center;
      }
+     /* banner part donesss */
+
+     .sites{
+        flex-wrap: wrap;
+        align-content: center;
+        /* justify-content: space-evenly; */
+        gap: 40px;
+    }
     
 }
 
@@ -73,5 +81,12 @@ nav{
     }
     .content-container{
         text-align: center;
+    }
+    /* banner part complete */
+    .sites{
+        flex-wrap: wrap;
+        align-content: center;
+        /* justify-content: space-evenly; */
+        gap: 40px;
     }
     }

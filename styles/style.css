@@ -93,3 +93,12 @@ nav{
     top: 5%;
     right:0;
 }
+.sites{
+    border: 1px solid red;
+    max-width: 1450px;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    /* gap: 30px; */
+}
