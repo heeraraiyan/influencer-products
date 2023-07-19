@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+   
+    max-width: 1650px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-title{
+    
+    width: 50%;
+    font-weight: 700;
+    color: #3A3A3A;
+    font-size: 1.5rem;
+}
+
+.nav-items{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+
+}
+.nav-items span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+
+}
+
+/* nav section complete */
+
+/* banner starts */
+
+.banner{
+    
+    min-height: 500px;
+    max-width: 1650px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content-container{
+    
+    width: 50%;
+}
+.content-container h1{
+    color: #3A3A3A;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.content-container p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.content-container button{
+    background-color: #E02C6D;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.banner-image{
+    width: 50%;
+    
+    min-height: 500px;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+.banner-image img{
+    position: absolute;
+    top: 5%;
+    right:0;
+}
